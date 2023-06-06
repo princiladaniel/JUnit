@@ -1,0 +1,53 @@
+<html>
+<style>
+    html {
+        font-family: sans-serif;
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -ms-overflow-style: scrollbar;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    
+    p {
+        background-color: #f7f9fa;
+        padding: 10px 15px;
+    }
+</style>
+
+<body>
+    <h3 style="color:#273F52;">Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+    </h3>
+<h3 style="color:black;">Assume the environment does not allow you to store 64-bit integers (signed or unsigned).<h3>
+    <div>
+        <h4 style="color:black;"><span>Example 1:</span></h4>
+        <p>
+            <b>Input:</b> x = 123 
+            <br>
+            <b>Output:</b> 321<br>
+            
+        </p>
+        <br>
+    </div>
+    <div>
+        <h4 style="color:black;"><span>Example 2:</span></h4>
+        <p>
+            <b>Input:</b> x =  -123 
+            <br>
+            <b>Output:</b> -321
+            
+        </p>
+    </div>
+    <div>
+        <h4 style="color:black;"><span>Example 3:</span></h4>
+        <p>
+            <b>Input:</b> x = 120
+            <br>
+            <b>Output:</b> 21
+           
+        </p>
+        <br>
+    </div>
+</body>
+
+</html>

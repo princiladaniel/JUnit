@@ -1,0 +1,67 @@
+<html>
+<style>
+    html {
+        font-family: sans-serif;
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        -ms-overflow-style: scrollbar;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    
+    p {
+        background-color: #f7f9fa;
+        padding: 10px 15px;
+    }
+</style>
+
+<body>
+    <h3 style="color:#273F52;">Given an unsorted array that may contain duplicates. Also given a number k which is smaller than the size of the array. Write a function that returns true if the array contains duplicates within k distance.
+    </h3>
+
+    <div>
+        <h4 style="color:black;"><span>Example 1:</span></h4>
+        <p>
+            <b>Input:</b>  k = 3, arr[] = {1, 2, 3, 4, 1, 2, 3, 4} 
+            <br>
+            <b>Output:</b> false <br>
+            <b>Explanation:</b>All duplicates are more than k distance away.
+            <br>
+            
+        </p>
+        <br>
+    </div>
+    <div>
+        <h4 style="color:black;"><span>Example 2:</span></h4>
+        <p>
+            <b>Input:</b> k = 3, arr[] = {1, 2, 3, 1, 4, 5}
+            <br>
+            <b>Output:</b> true
+            <br>
+            <b>Explanation:</b>1 is repeated at distance 3.
+            <br>
+        </p>
+    </div>
+    <div>
+        <h4 style="color:black;"><span>Example 3:</span></h4>
+        <p>
+            <b>Input:</b> k = 3, arr[] = {1, 2, 3, 4, 5}
+            <br>
+            <b>Output:</b> false
+           
+        </p>
+        <br>
+    </div>
+    <div>
+        <h4 style="color:black;"><span>Example 4:</span></h4>
+        <p>
+            <b>Input:</b> k = 3, arr[] = {1, 2, 3, 4, 4}
+            <br>
+            <b>Output:</b> true
+           
+        </p>
+        <br>
+    </div>
+</body>
+
+</html>
